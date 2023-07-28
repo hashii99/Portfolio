@@ -1,7 +1,5 @@
 import React, { useState} from 'react';
-// import Image from '../assests/img.jpg';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
-// import {  FaGit } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillArrowRightSquareFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
@@ -12,7 +10,8 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' >
+        <div className='flex justify-between items-center w-full h-20 px-4 bg-[#0a192f] text-white fixed"' >
+        {/* <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' > */}
             <div>
                 <img src= { Portfolio } alt="logo image" style={{width:'90px'}} />
             </div>
@@ -20,27 +19,28 @@ const Navbar = () => {
             {/* menu */}
                 <ul className='hidden md:flex'>
                     <li>
-                        <Link to="home" smooth={true} duration={500} >
+                        {/* <Link to="home" smooth={true} duration={500} > */}
+                        <Link to="home" smooth={true} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-20' >
                             Home
                         </Link>
                     </li> 
                     <li>
-                        <Link to="about" smooth={true} duration={500} >
+                        <Link to="about" smooth={true}  className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-20' >
                             About
                         </Link>
                     </li>
                     <li> 
-                        <Link to="skills" smooth={true} duration={500} >
+                        <Link to="skills" smooth={true}  className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-20' >
                             Skills
                         </Link>
                     </li>
                     <li> 
-                        <Link to="work" smooth={true} duration={500} >
+                        <Link to="work" smooth={true}  className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-20' >
                             Projects
                         </Link>
                     </li>
                     <li> 
-                        <Link to="contact" smooth={true} duration={500} >
+                        <Link to="contact" smooth={true}  className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-20' >
                             Contact
                         </Link>
                     </li>
@@ -85,25 +85,25 @@ const Navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/google.com">
+                        href="https://www.linkedin.com/in/hashini-thilinika-76350721b/">
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
+                        href="https://github.com/hashii99">
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
+                        href="mailto:hashinithilinika.av@gmail.com">
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
+                        href="/resume.pdf" download='Hashini'>
                             Resume <BsFillArrowRightSquareFill size={30} />
                         </a>
                     </li>
