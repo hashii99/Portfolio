@@ -10,6 +10,14 @@ import Mongo from '../assests/mongo.png';
 import ReactImage from '../assests/react.png';
 import Node from '../assests/node.png';
 import MySQL from '../assests/mysql.png';
+import C from '../assests/C.png';
+import CP from '../assests/Cplusplus.png';
+import Expressjs from '../assests/express.png';
+import Kotlin from '../assests/kotlin.png';
+import MUI from '../assests/meterial.jpeg';
+import Python from '../assests/python.png';
+import GitHub from '../assests/github.png';
+
 
 
 const Skills = () => {
@@ -24,12 +32,12 @@ const Skills = () => {
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ ReactImage } alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={ C } alt="HTML icon" />
                         <p className='my-4'>C</p>
                     </div>
 
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ ReactImage } alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={ CP } alt="HTML icon" />
                         <p className='my-4'>C++</p>
                     </div>
 
@@ -44,12 +52,12 @@ const Skills = () => {
                     </div>
 
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ Node } alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={ Expressjs } alt="HTML icon" />
                         <p className='my-4'>Express JS</p>
                     </div>
 
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ Node } alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={ MUI } alt="HTML icon" />
                         <p className='my-4'>Meterial UI</p>
                     </div>
 
@@ -74,7 +82,7 @@ const Skills = () => {
                     </div>
 
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ CSS } alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={ GitHub } alt="HTML icon" />
                         <p className='my-4'>Git Hub </p>
                     </div>
 
@@ -94,12 +102,12 @@ const Skills = () => {
                     </div>
 
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ Mongo } alt="HTML icon" />
-                        <p className='my-4'>Flutter</p>
+                        <img className='w-20 mx-auto' src={ Kotlin } alt="HTML icon" />
+                        <p className='my-4'>Kotlin</p>
                     </div>
 
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ Mongo } alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={ Python } alt="HTML icon" />
                         <p className='my-4'>Python</p>
                     </div>
                 </div>
