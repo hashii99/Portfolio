@@ -23,8 +23,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="md:w-1/2 md:order-3 mt-10 md:mt-0">
-
-                        <img src={ProfileImage} style={{ width: '100%' }} alt="My Profile" className="w-[full] h-[290px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] border rounded-full border-gray-600 dark:border-gray-200 relative md:mt-20 lg:mt-0 flex items-center justify-center" />
+                        <img src={ProfileImage} style={{ width: '1000px', border: 'solid white 1px', borderRadius:'50%', marginTop:'100px' }} alt="My Profile" />
                     </div>
                 </div>
                 <div style={{marginLeft:'20%'}}>
@@ -38,10 +37,7 @@ const Home = () => {
                     </button>
                 </div>
             </div>
-        </div>
-
-
-       
+        </div>   
     )
 }
 
