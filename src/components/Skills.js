@@ -18,12 +18,9 @@ import MUI from '../assests/meterial.jpeg';
 import Python from '../assests/python.png';
 import GitHub from '../assests/github.png';
 
-
-
 const Skills = () => {
     return (
         <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
-            {/* container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
@@ -124,9 +121,7 @@ const Skills = () => {
 
             </div>
         </div>
-    )
-    
-    
+    )  
 }
 
 export default Skills;
