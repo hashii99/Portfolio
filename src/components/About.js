@@ -18,11 +18,10 @@ const About = () => {
                         <p>Let Me Introduce<br /> My Self </p>
                     </div>
                     <div>
-                        <p>I'm Hashini Thilinka an undergraduate at the University of Colombo School of Computing 
-                            who strives to think out of the box. 
-                            I am good at adapting faster to newer technologies and grasping them easily and capable of making good technical decisions. 
-                            As a flexible, good negotiator, I am interested in web and mobile application development 
-                            and look forward to being a collaborative team worker who is effective in time management. 
+                        <p>I am a third-year undergraduate at University of Colombo School of Computing and eagerly seeking opportunities to enhance and maintain my technical skills.
+                             I'm interest on web and mobile development and I excited to put my knowledge to work as an effective and valuable team worker. 
+                             My flexibility and adept negotiation skills allow me to adapt to diverse challenges and collaborate seamlessly with team members. 
+                             I look forward to contributing as a collaborative team worker with effective in time management
                         </p>
                     </div>
                 </div><br/><br /><br />
